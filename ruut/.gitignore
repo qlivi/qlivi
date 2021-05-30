@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ruut
+ruut.so
+ruut.dylib
+ruut.dll
+ruut.a
+ruut.lib
+ruut-test-*
+*.exe
+*.o
+*.obj
+*.lst

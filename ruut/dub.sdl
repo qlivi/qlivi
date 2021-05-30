@@ -1,0 +1,5 @@
+name "ruut"
+description "Runtime diagnostic and procces tool"
+authors "Musangtara"
+copyright "Copyright © 2021, Musangtara"
+license "LGPL-2.1"

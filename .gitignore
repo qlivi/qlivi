@@ -17,3 +17,5 @@ package-lock.json
 .DS_Store
 tmp/
 *.tmp
+codewars/
+__pycache__/
