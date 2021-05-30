@@ -1,11 +1,13 @@
 import os, sys
 from typing import List
 import threading
-import jmpfile as com
 
+f = open("jmpfile.py", "r").read()
+print(f)
+command = f.splitlines()
 def run_command():
-	for i in range(len(com.command)):
-		threading.Thread(target=os.system(f"{com.command[i]}"))
+	for i in range(len(command)):
+		threading.Thread(target=os.system(f"{command[i]}"))
 
 def main():
 	run_command()
